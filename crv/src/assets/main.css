@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .brd {
+        @apply border-2 border-black
+    }
+}
+
+@layer components {
+    .form {
+        @apply flex flex-col justify-center items-center bg-gray-50 text-center py-4 shadow rounded-xl
+    }
+
+    .inpt {
+        @apply block text-center bg-gray-200 mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
+
+    }
+}
